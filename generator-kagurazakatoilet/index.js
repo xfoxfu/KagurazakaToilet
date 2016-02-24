@@ -26,7 +26,7 @@ module.exports = generators.Base.extend({
     }, {
       type: 'list',
       name: 'env-price-type',
-      message: '所在区域价格类型',
+      message: '所在区域类型',
       choices: ['公共', '收费', '限制']
     }, {
       type: 'input',
