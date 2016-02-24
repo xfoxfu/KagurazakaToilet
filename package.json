@@ -1,0 +1,32 @@
+{
+  "name": "generator-kagurazakatoilet",
+  "version": "1.0.0",
+  "description": "Helps to add toilets on KagurazakaToilet.",
+  "main": "generator-kagurazakatoilet/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderfox/KagurazakaToilet.git"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "yeoman",
+    "kagurazaka",
+    "toilet",
+    "generator"
+  ],
+  "author": "coderfox",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coderfox/KagurazakaToilet/issues"
+  },
+  "homepage": "https://github.com/coderfox/KagurazakaToilet#readme",
+  "files": [
+    "generator-kagurazakatoilet"
+  ],
+  "dependencies": {
+    "bluebird": "^3.3.1"
+  }
+}
