@@ -1,28 +1,26 @@
 {
   "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-symbol": "toilets",
-        "marker-color": "#9e9e9e",
-        "marker-size": "medium",
-        "位置": "富民桥低稍西，奥林匹克公园内，自行车道左侧",
-        "外部环境图": "",
-        "内部环境图": "",
-        "所在区域类型": "自由",
-        "厕所类型": "免费",
-        "镜子": "○",
-        "梳妆台": "○",
-        "备注": "沈阳市统一建设的无性别卫生间"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          123.4654712677002,
-          41.74896712858777
-        ]
-      }
+  "features": [{
+    "type": "Feature",
+    "properties": {
+      "marker-symbol": "toilets",
+      "marker-color": "#9e9e9e",
+      "marker-size": "medium",
+      "位置": "富民桥低稍西，奥林匹克公园内，自行车道左侧",
+      "外部环境图": "",
+      "内部环境图": "",
+      "所在区域价格": "自由",
+      "厕所价格": "免费",
+      "镜子": "○",
+      "台子": "○",
+      "备注": "沈阳市统一建设的无性别卫生间"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        123.4654712677002,
+        41.74896712858777
+      ]
     }
-  ]
+  }]
 }
