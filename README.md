@@ -12,10 +12,31 @@
 
 [沈阳](liaoning_shenyang.geojson)
 
-提交
+增加数据
 -----
 
-目前阶段，你可以 Fork 我们的仓库并修改对应的 `.geojson` 数据，提交 Pull Request 合并回本仓库。
+### 自动工具
+
+我们编写了自动添加信息的工具，你可以通过执行以下命令安装它：
+
+```
+git clone https://github.com/coderfox/KagurazakaToilet.git
+cd KagurazakaToilet
+npm install
+npm link
+```
+
+之后执行
+
+```
+kagurazakatoilet
+```
+
+就会打开一个向导来帮助你创建厕所的描述信息。
+
+### 提交
+
+目前阶段，你可以 Fork 我们的仓库并修改对应的 `.geojson` 数据（推荐通过自动工具~），提交 Pull Request 合并回本仓库。
 
 为了加速 Pull Request 的合并速度，你可以在提交 Pull Request 未收到响应的三天后向 <coderfox.fu@gmail.com> 发送邮件：
 
