@@ -45,6 +45,16 @@ Title: [KagurazakaToilet] Please merge pull request #xxxxxx
 Recipients: coderfox.fu@gmail.com
 ```
 
+### 自动格式化
+
+完成上文安装步骤后，你可以通过执行
+
+```
+kagurazakatoilet_beautify
+```
+
+来格式化你的输入，保障符合格式要求再提交。
+
 标准
 -----
 

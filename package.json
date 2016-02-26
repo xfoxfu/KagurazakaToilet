@@ -4,7 +4,8 @@
   "description": "Helps to add toilets on KagurazakaToilet.",
   "main": "generator/index.js",
   "bin": {
-    "kagurazakatoilet": "./generator/index.js"
+    "kagurazakatoilet": "./generator/index.js",
+    "kagurazakatoilet_beautify": "./generator/formatter.js"
   },
   "scripts": {
     "test": "mocha"
